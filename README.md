@@ -22,9 +22,9 @@ C1 Convolution Block->C2 Convolution Block->C3 Convolution Block->C4 Convolution
 ## Model
 Model Name : Net
 
-*Test Accuracy = 73.20% (max)
+*Test Accuracy = 80.80% (max)
 
-*Train Accuracy = 68.34%
+*Train Accuracy = 88.90%
 
 *Total params: 2,034,040
 
@@ -36,11 +36,14 @@ Analysis:
 - Depthwise Separable Convolution imporved the model performance - Test Accuracy of 65% Epoch 20
 - Dilated Convolution improved the model performance - Test Accuracy of 73% Epoch 20
 - Albumentation required model to train for longer time to achive the desiered accuracy.
+- Adding more layer to the model further increased the accuracy to 80%.
 
 Model Performance:
-![image](https://github.com/ShikhaERAV2/Session8/assets/160948226/7a876aa4-02f4-4e53-9929-6707636b0492)
+![image](https://github.com/ShikhaERAV2/Session9/assets/160948226/a6b65b6d-08e8-4700-bfb1-40a948860165)
+
 
 
 Mis-Classified Images:
-![image](https://github.com/ShikhaERAV2/Session8/assets/160948226/a9c7d1ff-e78e-4431-ac9a-94265978fb4a)
+![image](https://github.com/ShikhaERAV2/Session9/assets/160948226/5ac4acc0-1fa4-42cc-8e04-1db045241450)
+
 
